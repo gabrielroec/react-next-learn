@@ -1,10 +1,10 @@
 import "./App.css";
-import Post from "./components/Post";
-
+import Post from "./components/Post/Post";
 function App() {
   return (
     <>
-      <Post />
+      <Post author="Gabriel" body="React.js post" />
+      <Post author="John" body="React.js post" />
     </>
   );
 }
